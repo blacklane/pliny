@@ -18,8 +18,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency "activesupport",  "~> 5.0",  ">= 5.0.1"
   gem.add_dependency "multi_json",     "~> 1.9",  ">= 1.9.3"
   gem.add_dependency "prmd",           "~> 0.11", ">= 0.11.4"
-
-
   gem.add_dependency "sinatra",        ">= 1.4", "< 3.0"
   gem.add_dependency "http_accept",    "~> 0.1",  ">= 0.1.5"
   gem.add_dependency "sinatra-router", "~> 0.2",  ">= 0.2.4"
@@ -32,8 +30,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "timecop", "~> 0.7", ">= 0.7.1"
   gem.add_development_dependency "pry"
   gem.add_development_dependency "pry-byebug"
-  gem.add_development_dependency "pg",             "~> 0.17", ">= 0.17.1"
   gem.add_development_dependency "rollbar",        "~> 2.11",  ">= 2.11.0"
-  gem.add_development_dependency "sequel",         "~> 4.9",  ">= 4.9.0"
   gem.add_development_dependency "rubocop",        "~> 0.52", ">= 0.52.1"
 end
